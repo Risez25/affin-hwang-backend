@@ -40,7 +40,12 @@ export class CustomerService {
     }
 
     async getCustomers(): Promise<CustomersPageDto> {
-        const customers = await this.customerRepository.find();
+        const customers = await this.customerRepository.find({
+            order: {
+                createdAt: 'DESC',
+            },
+        });
+
         return new CustomersPageDto(customers.toDtos());
     }
 
