@@ -1,7 +1,7 @@
 {
-    "name": "maybank-assessment",
+    "name": "affinhwang-assessment",
     "version": "0.0.1",
-    "description": "Maybank Assessment",
+    "description": "affinhwang Assessment",
     "license": "MIT",
     "scripts": {
         "build": "tsc -p tsconfig.build.json",

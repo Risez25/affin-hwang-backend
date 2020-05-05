@@ -2,7 +2,7 @@
 
 ```bash
 # 1. Clone the repository or click on "Use this template" button.
-git clone https://risez25@bitbucket.org/risez25/maybankfullstackassessment_be.git my-new-project
+git clone https://github.com/Risez25/affin-hwang-backend.git my-new-project
 
 # 2. Enter your newly-cloned folder.
 cd my-new-project
